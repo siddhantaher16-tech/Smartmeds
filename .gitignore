@@ -1,0 +1,15 @@
+# Environment files and secrets
+.env
+.env.*
+!.env.example
+
+# Dependencies and generated files
+node_modules/
+target/
+build/
+dist/
+.venv/
+__pycache__/
+
+# Log files
+*.log
